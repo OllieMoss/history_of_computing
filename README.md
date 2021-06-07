@@ -13,6 +13,9 @@ A nav bar will be present across all pages that will link the user to the part o
 
 ### The landing Page
 
-### The Gallery
+### The Gallery Page
 
 ### Subscription Page
+
+### Bugs
+

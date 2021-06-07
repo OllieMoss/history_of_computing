@@ -16,6 +16,10 @@ h1, h2 {
     font-family: 'Dosis', 'sans-serif';
 }
 
+header {
+    margin-bottom: 20px;
+}
+
 /* navigation bar */
 
 #nav-bar {
@@ -68,7 +72,7 @@ h1, h2 {
 }
 
 .timeline-container {
-    max-width: 800px;
+    max-width: 700px;
     width: 75%;
     height: auto;
     margin: 0 auto;
@@ -83,8 +87,8 @@ h1, h2 {
 .timeline-container ul li {
     padding: 20px;
     background-color: #808e95;
-    border-radius: 5px;
-    margin: 15px;
+    text-align: center;
+    margin-bottom: 15px;
 }
 
 .timeline-container ul li:last-child {
@@ -105,20 +109,66 @@ h1, h2 {
     line-height: 20px;
 }
 
-@media only screen and (min-width: 768px) {
+.content a {
+    color: white;
+}
+
+.content a:hover {
+    color: black;
+}
+
+i {
+    margin-left: 5px;
+    padding: 0;
+}
+
+@media only screen and (min-width: 800px) {
+    .timeline-container::before {
+        content: '';
+        position: absolute;
+        height: 100%;
+        width: 2px;
+        background-color: #808e95;
+        left: 50%;
+        transform: translateX(-50%);
+    }
     .timeline-container ul li {
         width: 50%;
-        margin-bottom: 25px;
+        margin-bottom: 40px;
         position: relative;
     }
 
     .timeline-container ul li:nth-child(odd){
         float: left;
         clear: right;
+        transform: translateX(-25px);
+        border-radius: 5px 0px 5px 5px;
     }
 
     .timeline-container ul li:nth-child(even) {
         float: right;
         clear: left;
+        transform: translateX(25px);
+        border-radius: 0px 5px 5px 5px;
+    }
+
+    .timeline-container ul li::after {
+        content: '';
+        position: absolute;
+        height: 15px;
+        width: 15px;
+        top: 0;
+        border-radius: 50%;
+        background-color: #808e95;
+    }
+
+    .timeline-container ul li:nth-child(even)::after {
+        transform: translate(-50%, 50%);
+        left: -25px;
+    }
+
+    .timeline-container ul li:nth-child(odd)::after {
+        transform: translate(50%, -50%);
+        right: -25px;
     }
 }
