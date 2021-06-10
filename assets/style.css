@@ -16,88 +16,117 @@ h1, h2 {
     font-family: 'Dosis', 'sans-serif';
 }
 
-@media only screen and (min-width: 800px) {
 header {
     margin-bottom: 20px;
 }
 
 /* navigation bar */
 
-#nav-menu {
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 10vh;
     background-color: #1c313a;
-    height: 80px;
 }
 
-#title {
-    float: left;
-    font-size: 250%;
+#logo {
+    font-size: 240%;
     font-weight: 300;
     font-family: 'Dosis', 'sans-serif';
-    margin-top: 10px;
-    margin-left: 35px;
-    color: white;
+    color: rgb(241, 241, 241);
     text-transform: uppercase;
+    letter-spacing: 3px;
 }
 
-#nav-menu li {
-    float: right;
+.nav-links {
+    display: flex;
+    justify-content: space-around;
+    width: 40%;
     list-style-type: none;
-    margin-right: 35px;
-    margin-top: 25px;
-    font-family: 'Dosis', 'sans-serif';
-    font-size: 120%;
+}
+
+.nav-links a {
+    color: rgb(241, 241, 241);
+    text-decoration: none;
+    letter-spacing: 4px;
+}
+
+.burger {
+    display: none;
+}
+
+.burger div {
+    margin: 5px;
+    width: 25px;
+    height: 2px;
+    background-color: rgb(241, 241, 241);
+}
+
+.nav-links a:hover{
+    border-bottom: 1px solid rgb(241, 241, 241);
+    cursor: pointer;
 }
 
 .active {
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid rgb(241, 241, 241);
 }
 
-#nav-menu li a {
-    color: white;
-    text-decoration: none;
+@media screen and (max-width: 768px) {
+    #logo {
+    font-size: 215%;
+    font-weight: 300;
+    font-family: 'Dosis', 'sans-serif';
+    color: rgb(241, 241, 241);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    }
+
+    .nav-links {
+        right: 0px;
+        position: absolute;
+        width: 25%;
+        height: 100vh;
+        top: 10vh;
+        background-color: #1c313a; 
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+    
+    body {
+        overflow-x: hidden;
+    }
+    
+    .nav-links li {
+        opacity: 0;
+    }
+
+    .burger {
+        display: block;
+        cursor: pointer;
+    }
+
 }
 
-#nav-menu li a:hover {
-    border-bottom: 1px solid white;
+.nav-active {
+    transform: translateX(0%);
 }
 
-}
-
-@media only screen and (max-width: 800px) {
-
-    header {
-        margin: 0px 0px 20px 0px;
-        border: 0;
-        padding: 0;
+@keyframes navLinkFade {
+    from {
+        opacity: 0;
+        transform: translateX(0px);
     }
 
-    #nav-menu{
-        background-color: #1c313a;
-        height: 125px;
-    }
-
-    #title {
-        float: left;
-        font-size: 250%;
-        font-weight: 300;
-        font-family: 'Dosis', 'sans-serif';
-        margin-top: 10px;
-        margin-left: 35px;
-        color: white;
-        text-transform: uppercase;
-    }
-
-    #nav-menu ul li {
-        list-style-type: none;
-        margin-left: 35px;
-    }
-
-    #nav-menu ul li a {
-        float: left;
-        clear: left;
-        color: white;
+    to {
+        opacity: 1;
+        transform: translatex(50px);
     }
 }
+
 /* timeline structure */
 
 #timeline {
@@ -161,7 +190,7 @@ i {
     padding: 0;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 768px) {
     .timeline-container::after {
         content: '';
         position: absolute;
