@@ -44,6 +44,7 @@ nav {
     justify-content: space-around;
     width: 40%;
     list-style-type: none;
+    color: rgb(241, 241, 241);
 }
 
 .nav-links a {
@@ -85,7 +86,7 @@ nav {
     .nav-links {
         right: 0px;
         position: absolute;
-        width: 25%;
+        width: 20%;
         height: 100vh;
         top: 10vh;
         background-color: #1c313a; 
@@ -101,7 +102,7 @@ nav {
     }
     
     .nav-links li {
-        opacity: 0;
+        opacity: 1;
     }
 
     .burger {
@@ -118,76 +119,79 @@ nav {
 @keyframes navLinkFade {
     from {
         opacity: 0;
-        transform: translateX(0px);
+        transform: translateX(50px);
     }
 
     to {
         opacity: 1;
-        transform: translatex(50px);
+        transform: translatex(px);
     }
 }
 
 /* timeline structure */
 
-#timeline {
-    display: flex;
-    min-height: 100vh;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    color: white;
-}
+@media only screen and (max-width: 1600px) {
+    #timeline {
+        display: flex;
+        min-height: 100vh;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
 
-.timeline-container {
-    max-width: 700px;
-    width: 75%;
-    height: auto;
-    margin: 0 auto;
-    position: relative;
-    margin-top: 20px;
-}
+    .timeline-container {
+        max-width: 700px;
+        width: 75%;
+        height: auto;
+        margin: 0 auto;
+        position: relative;
+        margin-top: 20px;
+    }
 
-.timeline-container ul {
-    list-style-type: none;
-}
+    .timeline-container ul {
+        list-style-type: none;
+    }
 
-.timeline-container ul li {
-    padding: 20px;
-    background-color: #808e95;
-    text-align: center;
-    margin-bottom: 15px;
-}
+    .timeline-container ul li {
+        padding: 20px;
+        background-color: #808e95;
+        text-align: center;
+        margin-bottom: 15px;
+        width: 90%;
+    }
 
-.timeline-container ul li:last-child {
-    margin-bottom: 0;
-}
+    .timeline-container ul li:last-child {
+        margin-bottom: 0;
+    }
 
-.timeline-container ul li h1 {
-    margin-bottom: 8px;
-    text-align:  center;
-}
+    .timeline-container ul li h1 {
+        margin-bottom: 8px;
+        text-align:  center;
+    }
 
-.content, .right, .left, h1 {
-    padding-bottom: 10px;
-    font-size: 180%;
-}
+    .content, .right, .left, h1 {
+        padding-bottom: 10px;
+        font-size: 180%;
+    }
 
-.content, .right, .left, p {
-    font-size: 16px;
-    line-height: 20px;
-}
+    .content, .right, .left, p {
+        font-size: 16px;
+        line-height: 20px;
+    }
 
-.content, .left, .right, a {
-    color: #1c313a;
-}
+    .content, .left, .right, a {
+        color: #1c313a;
+    }
 
-.content, .left, .right, a:hover {
-    color: white;
-}
+    .content, .left, .right, a:hover {
+        color: white;
+    }
 
-i {
-    margin-left: 5px;
-    padding: 0;
+    i {
+        margin-left: 5px;
+        padding: 0;
+    }
 }
 
 @media only screen and (min-width: 768px) {
@@ -200,6 +204,7 @@ i {
         left: 50%;
         transform: translateX(-50%);
     }
+
     .timeline-container ul li {
         width: 50%;
         margin-bottom: 40px;
