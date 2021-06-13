@@ -132,6 +132,7 @@ nav {
     margin-bottom: 0px;
     font-size: 38px;
     font-weight: 300;
+    line-height: 40px;
 }
 .timeline-container {
     max-width: 700px;
@@ -148,7 +149,7 @@ nav {
     padding: 20px;
     background-color: #808e95;
     text-align: center;
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     width: 90%;
 }
 .date {
@@ -157,13 +158,10 @@ nav {
     margin-bottom: 10px;
     text-align: center;
 }
-.timeline-container ul li:last-child {
-    margin-bottom: 0;
-}
 .timeline-container ul li h1 {
     margin-bottom: 8px;
     text-align:  center;
-    line-height: 40px;
+    line-height: px;
 }
 .content, .right, .left, h1 {
     padding-bottom: 10px;
@@ -199,35 +197,31 @@ i {
         left: 50%;
         transform: translateX(-50%);
     }
-
     .timeline-container ul li {
         width: 50%;
-        margin-bottom: 40px;
         position: relative;
     }
-
     .timeline-container ul li:nth-child(odd){
         float: left;
         clear: right;
         transform: translateX(-25px);
         border-radius: 5px 0px 5px 5px;
+        margin-bottom: 40px;
     }
-
     .timeline-container ul li:nth-child(even) {
         float: right;
         transform: translateX(25px);
         border-radius: 0px 5px 5px 5px;
+        margin-bottom: 40px;
     }
     .timeline-container ul li:nth-child(even)::after {
         transform: translate(-50%, 50%);
         left: -25px;
     }
-
     .timeline-container ul li:nth-child(odd)::after {
         transform: translate(50%, -50%);
         right: -25px;
     }
-
     img {
         width: 100%;
         height: 100%;
@@ -247,7 +241,6 @@ i {
         border-width: 10px 0 10px 10px;
         border-color: transparent transparent transparent #808e95;
     }
-
     .right::before {
         content: '';
         height: 0;
