@@ -206,13 +206,13 @@ i {
         clear: right;
         transform: translateX(-25px);
         border-radius: 5px 0px 5px 5px;
-        margin-bottom: 40px;
+        margin-bottom: 30px;
     }
     .timeline-container ul li:nth-child(even) {
         float: right;
         transform: translateX(25px);
         border-radius: 0px 5px 5px 5px;
-        margin-bottom: 40px;
+        margin-bottom: 50px;
     }
     .timeline-container ul li:nth-child(even)::after {
         transform: translate(-50%, 50%);
@@ -225,6 +225,14 @@ i {
     img {
         width: 100%;
         height: 100%;
+    }
+    .copyright {
+        opacity: 0.5;
+        font-size: x-small;
+        margin-top: 0 auto;
+    }
+    div .content, .right {
+        padding: 0;
     }
 
 

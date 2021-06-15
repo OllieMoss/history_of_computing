@@ -13,7 +13,7 @@ There will be 3 pages to the history of computing.
 A nav bar will be present across all pages that will link the user to the part of the website they wish to see with a main logo that will also serve as a link to take the user back to the main landing page at any time. A gallery link will be present along with a link to take a user to the sign up page as well.
 
 ### The landing Page
-The landing pade is a minimalistic page where you are greeted straight away with the beginning of the timline starting with charles babbage and then moving forwards in time as you scroll down the page. next each name in each small section of informtion there is an 'i' icon where if you want to get more information about that particular person and their work, it will open a new tab and take you to the source websit of where I got the information that I have presented on my main landing page.
+The landing pade is a minimalistic page where you are greeted straight away with the beginning of the timline starting with charles babbage and then moving forwards in time as you scroll down the page. next to each name in each small section of informtion there is an 'i' icon where if you want to get more information about that particular person and their work, it will open a new tab and take you to the source websit of where I got the information that I have presented on my main landing page. Also on the right hand side of the timeline it's self there are photos of each person that is being referenced in the written content on the left to add more character to the page and also just to simply put a face to the name of the person and their work.
 
 ### The Gallery Page
 
@@ -21,4 +21,5 @@ The landing pade is a minimalistic page where you are greeted straight away with
 
 ### Bugs
 1. A bug where the nav bar wasnt presenting correctly in a mobile phone screen size - fixed: Fixed by remaking the original nav bar into a burger button with a small animation. (note: I'm happy that I decided to create something new as I think now this is much better than the first iteration.)
+2. Bug where if the written content box is vertically longer than the picture nect to it the next ".left" content box will not sit on the left side of the page - fixes: ensure that the picture being used is of a good size and to make sure the wortten content is not longer the than photo.
 
