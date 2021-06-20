@@ -36,6 +36,7 @@ nav {
     color: rgb(241, 241, 241);
     text-transform: uppercase;
     letter-spacing: 3px;
+    margin-top: 10px;
 }
 .nav-links {
     display: flex;
@@ -44,7 +45,7 @@ nav {
     list-style-type: none;
     color: rgb(241, 241, 241);
 }
-.nav-links a {
+.nav-links li a {
     color: rgb(241, 241, 241);
     text-decoration: none;
     letter-spacing: 4px;
@@ -58,7 +59,7 @@ nav {
     height: 2px;
     background-color: rgb(241, 241, 241);
 }
-.nav-links a:hover{
+.nav-links li a:hover{
     border-bottom: 1px solid rgb(241, 241, 241);
     cursor: pointer;
 }
@@ -273,7 +274,7 @@ i {
 }
 
 /* gallery timeline */
-@media only screen and (min-width: 875px) {
+@media only screen and (min-width: 874px) {
     .invention {
         font-size: 18px;
         letter-spacing: 2px;
@@ -287,7 +288,7 @@ i {
 }
 
 /* gallery timeline mobile & tablet screen optimisation*/ 
-@media only screen and (max-width: 875px) {
+@media only screen and (max-width: 874px) {
     .gallery-image div img {
         width: 100%;
         height: auto;
@@ -333,3 +334,5 @@ footer ul {
        margin: 25px 45px 25px 45px;
        color: rgb(226, 226, 226);
     }
+
+/*sign-up*/
