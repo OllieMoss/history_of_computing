@@ -276,7 +276,7 @@ i {
 /* gallery timeline */
 @media only screen and (min-width: 874px) {
     .invention {
-        font-size: 18px;
+        font-size: 20px;
         letter-spacing: 2px;
         margin-bottom: 10px;
         margin-top: 10px;
@@ -284,6 +284,13 @@ i {
     }
     .mobile-info {
         display: none;
+    }
+    .gallery-date {
+        font-size: 16px;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        text-align: center;
     }
 }
 
@@ -295,7 +302,7 @@ i {
         margin-top: 5px;
     }
     .invention {
-        font-size: 16px;
+        font-size: 20px;
         margin-bottom: 5px;
     }
     .copyright {
@@ -309,6 +316,13 @@ i {
     .mobile-info {
         padding-bottom: 5px;
         padding-top: 5px;
+    }
+    .gallery-date {
+        font-size: 16px;
+        letter-spacing: 2px;
+        margin-bottom: 10px;
+        margin-top: 10px;
+        text-align: center;
     }
 }
 
