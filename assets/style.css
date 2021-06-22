@@ -156,7 +156,6 @@ nav {
 .timeline-container ul li h1 {
     margin-bottom: 8px;
     text-align:  center;
-    line-height: px;
 }
 .content, .right, .left, h1 {
     padding-bottom: 15px;
@@ -219,7 +218,7 @@ i {
     .copyright {
         opacity: 0.5;
         font-size: x-small;
-        margin-top: 0 auto;
+        margin-top: 4px;
     }
     div .content, .right {
         padding: 0;
@@ -308,7 +307,7 @@ i {
     .copyright {
         opacity: 0.5;
         font-size: x-small;
-        margin-top: 0 auto;
+        margin-top: 4px;
     }
     .content-left {
         display: none;

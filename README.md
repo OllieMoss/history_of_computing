@@ -20,7 +20,8 @@ The gallery page is similar in layout to the main home/landing page but rather t
 
 ### Subscription Page
 
-### Bugs
+### Bugs & Code Validation
 1. A bug where the nav bar wasnt presenting correctly in a mobile phone screen size - fixed: Fixed by remaking the original nav bar into a burger button with a small animation. (note: I'm happy that I decided to create something new as I think now this is much better than the first iteration.)
 2. Bug where if the written content box is vertically longer than the picture nect to it the next ".left" content box will not sit on the left side of the page - fixes: ensure that the picture being used is of a good size and to make sure the wortten content is not longer the than photo: increase margin bottom size for image div on the right side of the page and decrease margin bottom size for the written content div on the left side of the page. This allows sligtly more space for written conent (if needed) and decreases chance of div being forced to the right of the page.
+3. CSS & html code is regularly checked using w3c html markup validation serice and w3c css valdation service websites.
 
