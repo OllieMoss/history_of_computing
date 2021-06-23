@@ -17,6 +17,7 @@ A nav bar will be present across all pages that will link the user to the part o
 ### The landing Page
 The landing pade is a minimalistic page where you are greeted straight away with the beginning of the timline starting with charles babbage and then moving forwards in time as you scroll down the page. next to each name in each small section of informtion there is an 'i' icon where if you want to get more information about that particular person and their work, it will open a new tab and take you to the source websit of where I got the information that I have presented on my main landing page. Also on the right hand side of the timeline it's self there are photos of each person that is being referenced in the written content on the left to add more character to the page and also just to simply put a face to the name of the person and their work.
 
+
 ### The Gallery Page
 The gallery page is similar in layout to the main home/landing page but rather than information about the specifics person or people behind an invention it will show the inventio it's self with some more information about that particular creation and what it does.
 
@@ -33,4 +34,5 @@ I had to learn how to create a timeline using CSS and html in my own time in ord
 ### Bugs & Code Validation
 1. A bug where the nav bar wasnt presenting correctly in a mobile phone screen size - fixed: Fixed by remaking the original nav bar into a burger button with a small animation. (note: I'm happy that I decided to create something new as I think now this is much better than the first iteration.)
 2. Bug where if the written content box is vertically longer than the picture nect to it the next ".left" content box will not sit on the left side of the page - fixes: ensure that the picture being used is of a good size and to make sure the wortten content is not longer the than photo: increase margin bottom size for image div on the right side of the page and decrease margin bottom size for the written content div on the left side of the page. This allows sligtly more space for written conent (if needed) and decreases chance of div being forced to the right of the page.
-3. CSS & html code is regularly checked using w3c html markup validation serice and w3c css valdation service websites. 
+3. CSS & html code is regularly checked using w3c html markup validation serice and w3c css valdation service websites.
+4. Bug/human error with file paths for css and images to be displayed in github pages. the "/" had to be removed from the beginning of all file paths linking to css and images in the content of the website in order to be shown on github pages.
