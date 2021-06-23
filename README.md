@@ -8,6 +8,8 @@ There will be 3 pages to the history of computing.
 2. A gallery page which will feature a timeline of photos of the inventions with info on when the were made, who made them, and the purpose of the machine.
 3. A final sign up page where people can subscribe to a newsletter with the idea behind that of being able to keep people up to date with developments in the computing world (the sign up page will not actually subscribe people to anything how ever in the future that would be something I would like to implement so that would be possibe).
 4. I used a few lines of javascript code in order to animate the burger nav when being viewed on a smart phone sized screen
+5. I used google fonts to help me decide what font theme I wanted for my website.
+6. I used material.io color tool to help choose the color theme for my website.
 
 ### Website Navigation and more
 A nav bar will be present across all pages that will link the user to the part of the website they wish to see with a main logo that will also serve as a link to take the user back to the main landing page at any time. A gallery link will be present along with a link to take a user to the sign up page as well.
@@ -19,6 +21,14 @@ The landing pade is a minimalistic page where you are greeted straight away with
 The gallery page is similar in layout to the main home/landing page but rather than information about the specifics person or people behind an invention it will show the inventio it's self with some more information about that particular creation and what it does.
 
 ### Subscription Page
+
+### External Sources for Code
+I had to learn how to create a timeline using CSS and html in my own time in order to create the website that I wanted I spent time watching some YouTube videos and reading online from various websites that I will link below. However the code I wrote is not simply copied and pasted I used what learnt to inspire my code to be as "original" as I possibly could with what I had to learn in the time I had to learn it, without it impacting the deadline for this project. The videos and websites I used to teach myself are as follows.
+1. https://www.youtube.com/watch?v=zNccqv0g6Q4
+2. https://www.youtube.com/watch?v=X6aMWDDJlJg
+3. https://www.youtube.com/watch?v=TcYSRI1JFQE
+4. https://freefrontend.com/css-timelines/
+5. https://www.w3schools.com/howto/howto_css_timeline.asp
 
 ### Bugs & Code Validation
 1. A bug where the nav bar wasnt presenting correctly in a mobile phone screen size - fixed: Fixed by remaking the original nav bar into a burger button with a small animation. (note: I'm happy that I decided to create something new as I think now this is much better than the first iteration.)
