@@ -1,6 +1,9 @@
 # History of Computing
 The history of computing is clean, clear way to look at the history and development of computing since it's inception to the present day, I want it to serve the purpose of educating someone who might just be curious as to how it all began but also help someone that wants to look at the history of computing in a more in depth, meaningful way. Whether it be for their own story or even perhaps something that could be referenced in a school envrionment.
 
+### Target Audience
+The people that I want to come to this site are people that want to see a minimal webiste that has the information that they are looking for that is easy to read and if they want they will also be able to access more information about a specific person or invention if it is just one particular thing they are looking for. Perhaps this person would be school student looking for info for some school/home work, or even someone that wants to write their own story or website that is looking for a source of information that they can use for their own projects that goes from the 1800's to the present day.
+
 ### Technology & Features
 I'll be using mainly HTML and CSS to create a stylish reponsive webiste that is easy to navigate and easy to intuit at glance once someone has entered the website.
 There will be 3 pages to the history of computing. 
@@ -11,15 +14,22 @@ There will be 3 pages to the history of computing.
 5. I used google fonts to help me decide what font theme I wanted for my website.
 6. I used material.io color tool to help choose the color theme for my website.
 
-### Website Navigation and more
+### Website Navigation and Footer
 A nav bar will be present across all pages that will link the user to the part of the website they wish to see with a main logo that will also serve as a link to take the user back to the main landing page at any time. A gallery link will be present along with a link to take a user to the sign up page as well.
+Nav Bar
+![nav-bar](https://user-images.githubusercontent.com/83232441/123262337-aecee900-d4ef-11eb-9916-ab86c6fd2050.jpg)
+Footer
+![footer](https://user-images.githubusercontent.com/83232441/123263102-84c9f680-d4f0-11eb-977e-f9162fa58c97.jpg)
+
 
 ### The landing Page
 The landing pade is a minimalistic page where you are greeted straight away with the beginning of the timline starting with charles babbage and then moving forwards in time as you scroll down the page. next to each name in each small section of informtion there is an 'i' icon where if you want to get more information about that particular person and their work, it will open a new tab and take you to the source websit of where I got the information that I have presented on my main landing page. Also on the right hand side of the timeline it's self there are photos of each person that is being referenced in the written content on the left to add more character to the page and also just to simply put a face to the name of the person and their work.
+Landing Page (zoomed out to 50% in order to see more)
 
-
-### The Gallery Page
-The gallery page is similar in layout to the main home/landing page but rather than information about the specifics person or people behind an invention it will show the inventio it's self with some more information about that particular creation and what it does.
+### The Invention Page
+The Invention page is similar in layout to the main home/landing page but rather than information about the specific person or people behind an invention, it will show the invention it's self with some more information about that particular creation and what it does and how it was made.
+Landing page (zoomed out to 50% to in order to see more)
+![invention page](https://user-images.githubusercontent.com/83232441/123265157-a7f5a580-d4f2-11eb-91b4-a0e739ca96f4.jpg)
 
 ### Subscription Page
 
@@ -36,3 +46,6 @@ I had to learn how to create a timeline using CSS and html in my own time in ord
 2. Bug where if the written content box is vertically longer than the picture nect to it the next ".left" content box will not sit on the left side of the page - fixes: ensure that the picture being used is of a good size and to make sure the wortten content is not longer the than photo: increase margin bottom size for image div on the right side of the page and decrease margin bottom size for the written content div on the left side of the page. This allows sligtly more space for written conent (if needed) and decreases chance of div being forced to the right of the page.
 3. CSS & html code is regularly checked using w3c html markup validation serice and w3c css valdation service websites.
 4. Bug/human error with file paths for css and images to be displayed in github pages. the "/" had to be removed from the beginning of all file paths linking to css and images in the content of the website in order to be shown on github pages.
+
+### Screen Size Mockup Generator
+![mockup generator](https://user-images.githubusercontent.com/83232441/123266648-2272f500-d4f4-11eb-91f3-4617f17fa417.png)
