@@ -19,6 +19,18 @@ h1, h2 {
 header {
     margin-bottom: 20px;
 }
+#head-info{
+    margin-top: 50px;
+}
+#head-info h2 {
+    text-transform: capitalize;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}
+#head-info p {
+    text-align: center;
+}
 
 /* navigation bar desktop */
 
@@ -26,7 +38,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    min-height: 10vh;
+    min-height: 13vh;
     background-color: #1c313a;
 }
 #logo {
@@ -76,22 +88,10 @@ nav {
         overflow-x: hidden;
     }
     .nav-links li {
-        margin-right: 15px;
+        margin-right: 40px;
     }
-}
-
-.nav-active {
-    transform: translateX(0%);
-}
-
-@keyframes navLinkFade {
-    from {
-        opacity: 0;
-        transform: translateX(50px);
-    }
-
-    to {
-        opacity: 1;
+    .nav-links li:last-child {
+        margin-right: 0px;
     }
 }
 
@@ -303,11 +303,7 @@ i {
 /*footer*/
 
 footer {
-    position: relative;
-    left: 0;
-    bottom: 0;
     width: 100%;
-    margin-top: 20px;
    }
 footer ul {
     background-color: #1c313a;
@@ -326,12 +322,6 @@ footer ul {
 
 /*sub page*/
 
-.sub-form h2 {
-    color: white;
-    font-weight: 400;
-    margin-bottom: 20px;
-    text-transform: capitalize;
-}
 .sub-form {
     height: 400px;
     width: 500px;
@@ -339,8 +329,14 @@ footer ul {
     padding: 12px 15px 12px 15px;
     background-color: #808e95;
     border-radius: 5px;
-    margin-bottom: 263px;
+    margin-bottom: 270px;
     margin-top: 100px;
+}
+.sub-form h2 {
+    color: white;
+    font-weight: 400;
+    margin-bottom: 20px;
+    text-transform: capitalize;
 }
 .text-input {
     color: white;
