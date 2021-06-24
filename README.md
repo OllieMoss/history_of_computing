@@ -16,6 +16,11 @@ There will be 3 pages to the history of computing.
 
 ### Website Navigation and Footer
 A nav bar will be present across all pages that will link the user to the part of the website they wish to see with a main logo that will also serve as a link to take the user back to the main landing page at any time. A gallery link will be present along with a link to take a user to the sign up page as well.
+Nav Bar
+![nav-bar](https://user-images.githubusercontent.com/83232441/123262337-aecee900-d4ef-11eb-9916-ab86c6fd2050.jpg)
+Footer
+![footer](https://user-images.githubusercontent.com/83232441/123263102-84c9f680-d4f0-11eb-977e-f9162fa58c97.jpg)
+
 
 
 ### The landing Page
@@ -25,6 +30,10 @@ Landing Page (zoomed out to 50% in order to see more)
 ### The Invention Page
 The Invention page is similar in layout to the main home/landing page but rather than information about the specific person or people behind an invention, it will show the invention it's self with some more information about that particular creation and what it does and how it was made.
 Landing page (zoomed out to 50% to in order to see more)
+<<<<<<< HEAD
+=======
+![invention page](https://user-images.githubusercontent.com/83232441/123265157-a7f5a580-d4f2-11eb-91b4-a0e739ca96f4.jpg)
+>>>>>>> acb92cd49cbd8e4b44c31d7ba615dce46ae7dbca
 
 ### Subscription Page
 
@@ -43,3 +52,7 @@ I had to learn how to create a timeline using CSS and html in my own time in ord
 4. Bug/human error with file paths for css and images to be displayed in github pages. the "/" had to be removed from the beginning of all file paths linking to css and images in the content of the website in order to be shown on github pages.
 
 ### Screen Size Mockup Generator
+<<<<<<< HEAD
+=======
+![mockup generator](https://user-images.githubusercontent.com/83232441/123266648-2272f500-d4f4-11eb-91f3-4617f17fa417.png)
+>>>>>>> acb92cd49cbd8e4b44c31d7ba615dce46ae7dbca
