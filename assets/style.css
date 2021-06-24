@@ -48,7 +48,7 @@ nav {
 .nav-links li a {
     color: rgb(241, 241, 241);
     text-decoration: none;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 .burger {
     display: none;
