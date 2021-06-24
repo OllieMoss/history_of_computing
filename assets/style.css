@@ -284,7 +284,7 @@ i {
     .mobile-info {
         display: none;
     }
-    .gallery-date {
+    .invention-date {
         font-size: 16px;
         letter-spacing: 2px;
         margin-bottom: 10px;
@@ -295,7 +295,7 @@ i {
 
 /* gallery timeline mobile & tablet screen optimisation*/ 
 @media only screen and (max-width: 874px) {
-    .gallery-image div img {
+    .invention-image div img {
         width: 100%;
         height: auto;
         margin-top: 5px;
@@ -316,7 +316,7 @@ i {
         padding-bottom: 5px;
         padding-top: 5px;
     }
-    .gallery-date {
+    .invention-date {
         font-size: 16px;
         letter-spacing: 2px;
         margin-bottom: 10px;
