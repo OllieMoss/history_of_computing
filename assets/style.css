@@ -70,8 +70,7 @@ nav {
     border-bottom: 1px solid rgb(241, 241, 241);
 }
 
-/* navigation bar mobile */
-
+/* nav bar mobile */
 @media screen and (max-width: 875px) {
     #logo {
     font-size: 215%;
@@ -83,9 +82,7 @@ nav {
     }
     #nav-menu {
         flex-direction: column;
-    }
-    body {
-        overflow-x: hidden;
+        width: 100%;
     }
     .nav-links li {
         margin-right: 40px;
@@ -96,7 +93,6 @@ nav {
 }
 
 /* timeline mobile */
-
 #timeline {
     display: flex;
     min-height: 100vh;
@@ -151,7 +147,7 @@ i {
     padding: 0;
 }
 
-/*index mobile screen optimisation*/
+/*index mobile*/
 @media only screen and (max-width: 875px) {
     .image {
         display: none;
@@ -220,6 +216,7 @@ i {
         transform: translate(50%, -50%);
         right: -25px;
     }
+}
 
 /* pointer on content box*/
 
@@ -245,9 +242,7 @@ i {
         border-width: 10px 10px 10px 0px;
         border-color: transparent #808e95 transparent;
     }
-}
 
-/* gallery timeline */
 @media only screen and (min-width: 874px) {
     .invention {
         font-size: 20px;
@@ -268,7 +263,7 @@ i {
     }
 }
 
-/* gallery timeline mobile & tablet screen optimisation*/ 
+/*timeline mobile*/ 
 @media only screen and (max-width: 874px) {
     .invention-image div img {
         width: 100%;
@@ -300,9 +295,9 @@ i {
     }
 }
 
-/*footer*/
-
+/*footer*/ 
 footer {
+    flex-direction: column;
     width: 100%;
    }
 footer ul {
@@ -321,33 +316,90 @@ footer ul {
 }
 
 /*sub page*/
-
 .sub-form {
-    height: 400px;
+    height: 365px;
     width: 500px;
     margin: 0 auto;
-    padding: 12px 15px 12px 15px;
+    padding: 15px;
     background-color: #808e95;
     border-radius: 5px;
-    margin-bottom: 270px;
+    margin-bottom: 277px;
     margin-top: 100px;
 }
 .sub-form h2 {
     color: white;
     font-weight: 400;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     text-transform: capitalize;
 }
 .text-input {
     color: white;
     background: transparent;
-    width: 100%;
+    width: 95%;
     height: 25px;
     border-radius: 2px;
     border: 1px solid white;
-    margin: 10px 5px 10px 5px;
+    margin: 0px 5px 20px 5px;
 }
 label {
     color: white;
     margin: 10px 5px 10px 5px;
+    margin-bottom: 0px;
+}
+
+.sub-button {
+    display: block;
+    background-color: #1c313a;
+    color: white;
+    margin-top: 25px;
+    border-radius: 5px;
+    padding: 12px 20px 12px 20px;
+    text-align: center;
+    font-size: 100%;
+    cursor: pointer;
+}
+
+/*sub form mobile*/
+@media only screen and (max-width: 874px) {
+    .sub-form {
+        height: 365px;
+        width: 350px;
+        margin: 0 auto;
+        padding: 15px;
+        background-color: #808e95;
+        border-radius: 5px;
+        margin-bottom: 277px;
+        margin-top: 100px;
+    }
+    .sub-form h2 {
+        color: white;
+        font-weight: 400;
+        margin-bottom: 30px;
+        text-transform: capitalize;
+    }
+    .text-input {
+        color: white;
+        background: transparent;
+        height: 25px;
+        border-radius: 2px;
+        border: 1px solid white;
+        margin: 0px 5px 20px 5px;
+    }
+    label {
+        color: white;
+        margin: 10px 5px 10px 5px;
+        margin-bottom: 0px;
+    }
+    
+    .sub-button {
+        display: block;
+        background-color: #1c313a;
+        color: white;
+        margin-top: 25px;
+        border-radius: 5px;
+        padding: 12px 20px 12px 20px;
+        text-align: center;
+        font-size: 100%;
+        cursor: pointer;
+    }
 }
