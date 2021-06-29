@@ -1,8 +1,7 @@
 # History of Computing
-The history of computing is clean, clear way to look at the history and development of computing since it's inception to the present day, I want it to serve the purpose of educating someone who might just be curious as to how it began but also help someone that wants to look at the history of computing in a more in depth, meaningful way. Whether it be for their own story or even perhaps something that could be referenced in a school envrionment.
+The history of computing is clean, clear way to look at the history and development of computing since it's inception to the present day, I want it to serve the purpose of educating someone who might just be curious as to how it began but also help someone that wants to look at the history of computing in a more in depth, meaningful way. Whether it be for their own story or even perhaps something that could be referenced in a school envrionment. The people that would to come to this site are people that want to see a minimal webiste that has the information that they are looking for that is easy to read and if they want they will also be able to access more information about a specific person or invention if it is just one particular thing they are looking for. Perhaps this person would be school student looking for info for some school/home work, or even someone that wants to write their own story or website that is looking for a source of information that they can use for their own projects that goes from the 1800's to the present day.
 
-### Target Audience
-The people that would to come to this site are people that want to see a minimal webiste that has the information that they are looking for that is easy to read and if they want they will also be able to access more information about a specific person or invention if it is just one particular thing they are looking for. Perhaps this person would be school student looking for info for some school/home work, or even someone that wants to write their own story or website that is looking for a source of information that they can use for their own projects that goes from the 1800's to the present day.
+![mockup_gen](https://user-images.githubusercontent.com/83232441/123788870-70ad3d00-d8d4-11eb-905b-4625274eb172.jpg)
 
 ### Technology & Features
 I'll be using mainly HTML and CSS to create a stylish reponsive webiste that is easy to navigate and easy to intuit at glance once someone has entered the website.
@@ -24,6 +23,11 @@ A nav bar will be present across all pages that will link the user to the part o
 -Mobile nav bar:
 
 ![mobile_nav](https://user-images.githubusercontent.com/83232441/123541243-63a91600-d73b-11eb-9f91-892dec5112d2.jpg)
+
+-Footer (Footer style is the same across screen sizes)
+
+![footer](https://user-images.githubusercontent.com/83232441/123796062-9e967f80-d8dc-11eb-8585-d713c57e8190.jpg)
+
 
 ### The landing Page
 The main landing page has a minimalistic style that clearly conveys information in easy to read way, with written info onm the left with the title about what the invention is and a photo of the invention to the right with a line down that goes down vertically on the page. Next to the title of the written info there is an 'i' icon. Just before the timeline starts there are a few lins that explain what the what website and explaining what the 'i' icons is for. When in mobile phone screen size the timeline will compress into one column where the title, date, info and photo will all be in one block as illustrated below.
@@ -62,18 +66,27 @@ The subscription page is a simple sign up for a newsletter that asks for someone
 
 
 ### External Sources for Code
-I had to learn how to create a timeline using CSS and html in my own time in order to create the website that I wanted I spent time watching some YouTube videos and reading online from various websites that I will link below. However the code I wrote is not simply copied and pasted I used what learnt to inspire my code to be as "original" as I possibly could with what I had to learn in the time I had to learn it, without it impacting the deadline for this project. The videos and websites I used to teach myself are as follows.
+I had to learn how to create a timeline using CSS and html in my own time in order to create the website that I wanted, I spent time watching some YouTube videos and reading online from various websites that I will link below. However the code I wrote is not simply copied and pasted I used what learnt to inspire my code to be as original as I possibly could with what I had to learn in the time I had to learn it, without it impacting the deadline for this project. The videos and websites I used to teach myself are as follows.
 1. https://www.youtube.com/watch?v=zNccqv0g6Q4
 2. https://www.youtube.com/watch?v=X6aMWDDJlJg
 3. https://www.youtube.com/watch?v=TcYSRI1JFQE
 4. https://freefrontend.com/css-timelines/
 5. https://www.w3schools.com/howto/howto_css_timeline.asp
 
-### Bugs & Code Validation
-1. A bug where the nav bar wasnt presenting correctly in a mobile phone screen size - fixed: Fixed by remaking the original nav bar into a burger button with a small animation. (note: I'm happy that I decided to create something new as I think now this is much better than the first iteration.)
-2. Bug where if the written content box is vertically longer than the picture nect to it the next ".left" content box will not sit on the left side of the page - fixes: ensure that the picture being used is of a good size and to make sure the wortten content is not longer the than photo: increase margin bottom size for image div on the right side of the page and decrease margin bottom size for the written content div on the left side of the page. This allows sligtly more space for written conent (if needed) and decreases chance of div being forced to the right of the page.
+### Bugs, Code Validation and testing
+1. A bug where the nav bar wasnt presenting correctly in a mobile phone screen size - fixed: Fixed by remaking the original nav bar into a burger button with a small animation.
+2. Bug where if the written content box is vertically longer than the picture next to it the next ".left" content box will not sit on the left side of the page - fixes: ensure that the picture being used is of a bigger size and to make sure the written content is not vertically longer the than photo or increase margin bottom size for image div on the right side of the page and decrease margin bottom size for the written content div on the left side of the page. This allows sligtly more space for written conent (if needed) and decreases chance of div being forced to the right of the page.
 3. CSS & html code is regularly checked using w3c html markup validation serice and w3c css valdation service websites.
-4. Bug/human error with file paths for css and images to be displayed in github pages. the "/" had to be removed from the beginning of all file paths linking to css and images in the content of the website in order to be shown on github pages.
+4. Bug/human error with file paths for css and images to be displayed in github pages. the "/" had to be removed from the beginning of all file paths linking to css stylesheet and images in the content of the website in order to be shown on github pages.
 5. A bug where the burger nav wasnt working properly on smaller screen sizes - fix: reverted back to just css for screen size adjustments a placed nav links below logo on smaller screens.
+6. Cheking 'i' icon links by simply clicking them all on live server browser and making sure they all open to the relevent pages, same goes for checking links on gallery photo links.
 
-### Screen Size Mockup Generator
+###Unfixed bugs
+1. No unfixed bugs
+
+###Deployment
+Deployed using github pages after commiting and pushing the most up to date code to the github repository, then moving to settings tab, going to pages section, selected master branch as source and saving. Then the link for the website for the github pages link is refreshed and says it's ready to to be published.
+- Live link to website: https://olliemoss.github.io/history_of_computing/index.html
+
+###Credits
+All the information that is on my website was sourced from external websites that are the linked in the 'i' icons nect to each heading and summarised as best as I could to fit the aesthetic of my page. Also also do not claim any copyright ownership of the photos used on the website and that is stated below each photo. The copyright to the photos used in the gallery page are also not owned by me.
