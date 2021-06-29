@@ -432,7 +432,6 @@ footer {
     width: 100%;
    }
 footer ul {
-    background-color: #1c313a;
 }
 #social-media {
       text-align: center;
@@ -443,5 +442,5 @@ footer ul {
 #social-media i {
        font-size: 200%;
        margin: 25px;
-       color: rgb(226, 226, 226);
+       color: #1c313a;
 }
